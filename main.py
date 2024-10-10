@@ -2,11 +2,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow, QWidget, QVBoxLayout, QPu
 from PyQt6.QtCore import QSize,Qt
 from PyQt6.QtGui import QPixmap
 import sys
-<<<<<<< HEAD
 #hello
-=======
-
->>>>>>> bcd8a307769f71079f78fc7da67fcb7eacf7e59f
 class StartWindow(QMainWindow):
     def __init__(self):
         super().__init__()
