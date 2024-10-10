@@ -109,7 +109,7 @@ class StartWindow(QMainWindow):
         info_layout.setAlignment(close_button, Qt.AlignmentFlag.AlignRight)
         
         self.setCentralWidget(info_widget)
-        self.resize(pixmap.width(), pixmap.height())
+        #self.resize(pixmap.width(), pixmap.height())
 
     def open_settings_window(self):
         settings_widget = QWidget()
